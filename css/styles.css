@@ -1,0 +1,216 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+
+h1, h2, h6, h8, .tryItFree, .header-link {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+  	color: #fff;
+}
+h4, h5, p, h3, h7 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+   color: #FFF;
+}
+h2, .services-h1{
+	color: #1A1A1A;
+	padding-top: 108px;
+}
+h5 {
+	font-size: 22px;
+	color: #959595;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+h6, p {
+	font-size: 18px;
+	color: #1A1A1A;
+}
+p {
+	color: #959595;
+	padding: 18px 0;
+}
+img {
+	/*padding-bottom: 60px;*/
+}
+h3 {
+	font-size: 60px;
+	line-height: 72px;
+	margin-top: 166px;
+	margin-bottom: 58px;
+}
+
+h7 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.8px;
+}
+h8, .footer-links {
+	font-size: 14px;
+	color: #ACACAC;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+.footer-links {
+	font-size: 13px;
+	font-weight: 700;
+}
+.s-center{
+	text-align:center;
+	display: inline-block;
+}
+
+/************ BOOTSTRAP OVER RIDE ************/
+
+.navbar-default {
+  height: 80px;
+  margin-bottom: 0px;
+  background-color: rgba(0, 3, 0, 0.75);
+}
+
+.btn-default {
+	margin-top: 50px;
+}
+
+
+/******************** NAVBAR ****************/
+.logo {
+	margin-top: 20px;
+}
+.header-link {
+	font-size: 15px;
+	color: #FFF !important;
+	margin-top: 10px;
+}
+.navbar-collapse {
+	background-color: #959595;
+}
+
+/**************** HERO ****************/
+.header.with-hero	, .testimonial-container {
+  background-image: url("../img/Homepage-v1/hero-photo.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position:center center;
+}
+.btn-default, .learnMore, .learnMore2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	color: #FFF;
+	background-color: #FF922D;
+	line-height: 32.81px;
+	text-align: center;
+}
+.white-icon {
+	text-align: center;
+	padding-right: 300px;
+	padding-left: 300px;
+	padding-top: 165px;
+	padding-bottom: 50px;
+}
+.hero-button {
+	text-align: center;
+	padding-top: 50px;
+}
+.tryItFree {
+	color: #FFF;
+	padding: 30px 65px;
+	font-size: 18px;
+}
+.hero-text, .services-container, .services-tile, .header-center, .testimonial-container, .page-title {
+	text-align: center;
+}
+
+/**************** SERVICES ****************/
+.btn-primary {
+	background-color: #FFF;
+	border: 5px solid #FF9C00;
+	margin-top: 50px;
+	margin-bottom: 108px;
+}
+.learnMore {
+	color: #FF9C00;
+	background-color: #FFF;
+	padding: 27px 54px;
+}
+
+/**************** TESTIMONIAL ****************/
+
+.testimonial-container {
+	background-image: url("../img/Homepage-v1/testimonial-photo1.png");
+}
+.learnMore2 {
+	color: #FFF;
+	background-color: #FF922D;
+	padding: 30px 58px;
+}
+
+/**************** FOOTER ****************/
+.footer-container {
+	padding-top: 86px;
+}
+.footer-links ul {
+	list-style-type: none;
+}
+
+ul.social-icons li {
+	display: inline-block;
+	margin: 0 20px;
+}
+ .logo-color {
+ 	padding-bottom: 15px;
+ }
+
+/**************** SERVICES PAGE  ****************/
+.navbar-gradient {
+	background-image: -webkit-linear-gradient(left, rgb(93,164,237) 0%, rgb(114, 216,242) 100%);
+}
+.services-h1 {
+	margin-top: 112px;
+	margin-bottom: 30px;
+}
+.services-h5 {
+	margin-bottom: 105px;
+}
+.service-description {
+	font-weight: 500;
+	color: #959595;
+	text-align: left;
+}
+
+.services-btn {
+	margin-top: 100px;
+	text-align: center;
+}
+/**************** TEAM PAGE  ****************/
+.team-copy {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.team-btn {
+	text-align: center;
+	margin-bottom: 200px;
+}
+.team-h6 {
+	font-weight: 500;
+	color: #959595;
+}
+ul.profile-social-icons{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+ul.profile-social-icons li{
+	display:inline-block;
+	padding:0px 8px;
+}
+
